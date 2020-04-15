@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pass phrase generator</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<table>
+    <tr>
+        <td id="title" colspan="2">Pass-phrase generator</td>
+    </tr>
+    <tr>
+        <td>
+            <label for="words-count">Words count</label>
+            <input id="words-count" type="number" min="1" step="1" value="5"/>
+        </td>
+        <td>
+            <label for="min-word-size">Min word size</label>
+            <input id="min-word-size" type="number" min="1" step="1" value="3"/>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <code id="result">Some results here</code>
+        </td>
+    </tr>
+    <tr>
+        <td>Words entropy</td>
+        <td id="words-entropy">n/s bit(s)</td>
+    </tr>
+    <tr>
+        <td>Letters entropy</td>
+        <td id="letters-entropy">n/a bit(s)</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input id="button" type="button" value="Generate"/>
+        </td>
+    </tr>
+</table>
+<script src="script.js"></script>
+</body>
+</html>

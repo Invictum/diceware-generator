@@ -1,0 +1,46 @@
+#title {
+    font: 1.5rem 'Fira Sans', sans-serif;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input:focus {
+    outline: none !important;
+    border: 2px solid rgba(0, 128, 0, 0.8);
+    box-shadow: 0 0 12px rgba(0, 128, 0, 0.6);
+}
+
+td {
+    text-align: center;
+    margin: .4rem 0;
+    padding: 10px;
+}
+
+code#result {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+input#button {
+    border: 1px;
+    padding: 7px 40px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(245, 245, 245, 1.0);
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 1.0);
+}
+
+input#button:hover {
+    /*color: rgba(245, 245, 245, 0.7);*/
+    background-color: rgba(0, 128, 0, 0.7);
+}
+
+input#button:active {
+    border-style: solid;
+    border-width: 2px;
+}
