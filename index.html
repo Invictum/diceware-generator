@@ -2,36 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pass phrase generator</title>
+    <title>Diceware passphrase generator</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 <table>
     <tr>
-        <td id="title" colspan="2">Pass-phrase generator</td>
+        <td id="title" colspan="2">Diceware pass generator</td>
     </tr>
     <tr>
-        <td>
+        <td colspan="2">
             <label for="words-count">Words count</label>
             <input id="words-count" type="number" min="1" step="1" value="5"/>
-        </td>
-        <td>
-            <label for="min-word-size">Min word size</label>
-            <input id="min-word-size" type="number" min="1" step="1" value="3"/>
         </td>
     </tr>
     <tr>
         <td colspan="2">
-            <code id="result">Some results here</code>
+            <code id="result">Click "Generate" for results</code>
         </td>
     </tr>
     <tr>
-        <td>Words entropy</td>
-        <td id="words-entropy">n/s bit(s)</td>
-    </tr>
-    <tr>
-        <td>Letters entropy</td>
-        <td id="letters-entropy">n/a bit(s)</td>
+        <td>Entropy</td>
+        <td id="entropy">n/s bit(s)</td>
     </tr>
     <tr>
         <td colspan="2">
